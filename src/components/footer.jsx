@@ -27,6 +27,7 @@ function Footer(){
     };
     return(
             <div className= "Footer">
+                <div className='child_footer'>
                 <div className='feedback-section'>
                 <p className='footer-brand'>Job 3.0</p>
                     <h3 className='newsletter'>SIGN UP FOR OUR NEWSLETTER NOW !</h3>
@@ -41,27 +42,35 @@ function Footer(){
                     </div>
                 </div>
                     
-                     <div className='our-items' >
+                     
                         
-                         <ul className='footer_list'>
-                             <li><Link to="/Home">Home</Link></li>
-                             <li><Link to="/Solution  ">Solution</Link></li>
-                             <li><Link to="/Testimonials">Testimonials</Link></li>
-                             <li><Link to="/AboutUs">AboutUs</Link></li>
-                         </ul>
-                         
-                       <Routes>
-                        <Route path="/Home" element={<Home/>}/>
-                        <Route path="/Solution" element={<Solution/>}/>
-                        <Route path="/Testimonials" element={<Testimonials/>}/>
-                        <Route path="/AboutUS" element={<AboutUs/>}/>
-                       </Routes>
-                    </div>
-                    <div>
-              <h1>hello
-              </h1>
-            </div>
+                             <div className='our-items' >
+                                  <ul className='footer_list'>
+                                      <li style={{fontWeight:"bold"}}>COMPANY</li>
+                                      <li><Link to="/Home">HOME</Link></li>
+                                      <li><Link to="/Solution  ">SOLUTION</Link></li>
+                                      <li><Link to="/Testimonials">TESTIMONIALS</Link></li>
+                                      <li><Link to="/AboutUs">ABOUTUS</Link></li>
+                                  </ul>
+                                  
+                                <Routes>
+                                 <Route path="/Home" element={<Home/>}/>
+                                 <Route path="/Solution" element={<Solution/>}/>
+                                 <Route path="/Testimonials" element={<Testimonials/>}/>
+                                 <Route path="/AboutUS" element={<AboutUs/>}/>
+                                </Routes>
+                              </div>
+                    <div className='footer_items'>
+                      <ul className='footer_list'>
+                          <li style={{fontWeight:"bold"}}>RESOURCES</li>
+                          <li>PRIVACY POLICY</li>
+                          <li>TERMS & CONDITIONS</li>
 
+                      </ul>
+                   </div>
+                </div>
+                 <hr style={{margin:"0 200px", border:"1px solid"}}/>
+                 <p className='copyrights'> &#169; Copyright 2024, All Rights Reserved By Job 3.0</p>  
             </div>
             
     );

@@ -1,27 +1,14 @@
 /* *************** Footer ****************** */
 .Footer{
     background-color: gainsboro;
-    width: 100%;
-    display:flex;
-  
-  
-    
+   
   }
-  .feedback-section{
-    /* background-color: #007bff; */
+  .child_footer{
+    height: 40vh;
     width: 100%;
-    
+    display: flex;
   }
-  
-  .our-items{
-    background-color: #17a2b8;
-    width: 100%;
-  }
-  .our-list{
-    background-color: #24484e;
-    width: 100%;
-  }
-  
+ 
   
   .footer-brand,.contactus{
     margin-bottom: 20px;
@@ -49,3 +36,38 @@
     margin-left: 20px;
   
   }
+  .our-items{
+    /* background-color: #17a2b8; */
+    width: 33.33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer_list{
+    list-style-type: none;
+    padding: 0;
+    margin-right: 30px;
+  }
+  .footer_list li{
+    margin-bottom: 30px;
+  }
+  .footer_list,.footer_items a {
+    text-decoration: none;
+    color: #023e7f ;
+    font-size: medium;
+  }
+
+.footer_items{
+  width: 33.33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.copyrights{
+  font-size: large;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+
+}
