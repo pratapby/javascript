@@ -1,0 +1,51 @@
+/* *************** Footer ****************** */
+.Footer{
+    background-color: gainsboro;
+    width: 100%;
+    display:flex;
+  
+  
+    
+  }
+  .feedback-section{
+    /* background-color: #007bff; */
+    width: 100%;
+    
+  }
+  
+  .our-items{
+    background-color: #17a2b8;
+    width: 100%;
+  }
+  .our-list{
+    background-color: #24484e;
+    width: 100%;
+  }
+  
+  
+  .footer-brand,.contactus{
+    margin-bottom: 20px;
+    padding: 2rem;
+  }
+  .newsletter{
+    margin-bottom: 10px;
+    padding: 1rem;
+  }
+  input{
+    margin-bottom: 20px;
+    margin-left: 25px;
+    border-radius: 20px;
+    padding: 10px;
+  
+  }
+  button{
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 20px;
+  
+  }

@@ -1,4 +1,7 @@
 import {Routes, Route, Link} from 'react-router-dom';
+import './navbar.css'
+
+
 function Home(){
    return <h2>Home</h2>;
 }

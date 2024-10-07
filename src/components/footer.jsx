@@ -1,5 +1,6 @@
 import {useState}  from 'react';
 import { Routes, Route, Link } from 'react-router-dom';
+import './footer.css'
 
 function Home(){
     return <h2>Home</h2>;
@@ -56,9 +57,13 @@ function Footer(){
                         <Route path="/AboutUS" element={<AboutUs/>}/>
                        </Routes>
                     </div>
-                
+                    <div>
+              <h1>hello
+              </h1>
             </div>
 
+            </div>
+            
     );
 
 }
